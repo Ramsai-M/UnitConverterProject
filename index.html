@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Length Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="header">Length Converter</h1>
+<div id="container">
+<div class="input-div">
+<select id=inputType class="clck">
+<option value="kilometer">Kilo-Meter</option>
+<option value="meter">Meter</option>
+<option value="centimeter">Centimeter</option>
+<option value="millimeter">Millimeter</option>
+</select>
+<br>
+<input type="text" placeholder="Input" id="inputVal" class="inpt clck">
+</div> <!--End of inpt div -->
+
+<div class="input-div">
+<h1>=</h1>
+</div>
+
+<div class="input-div">
+<select id=resultType class="clck">
+<option value="kilometer">Kilo-Meter</option>
+<option value="meter">Meter</option>
+<option value="centimeter">Centimeter</option>
+<option value="millimeter">Millimeter</option>
+</select>
+<br>
+<input type="text" placeholder="Result" id="resultVal" class="inpt clck">
+</div> <!--End of 2nd inpt div -->
+
+</div> <!--End of Container -->
+<div class="ScrollingTxt">
+<marquee id="mar1" direction="left"	height="50px">
+Enter Only Numeric Values in input text field.
+</marquee>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
